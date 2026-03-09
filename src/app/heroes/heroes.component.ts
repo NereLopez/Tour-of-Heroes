@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-heroes',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
 })
